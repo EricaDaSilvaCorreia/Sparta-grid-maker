@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function(){
   //
   const table = document.createElement('table');
 
-  const tbody = document.createElement('tbody');
+  const tbody = document.createElement('table');
   table.appendChild(tbody);
 
   const tsound = document.createElement('audio');
@@ -35,24 +35,4 @@ document.addEventListener('DOMContentLoaded', function(){
   }
 
   board.appendChild(table);
-
-  /////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }); //close addEventListener
